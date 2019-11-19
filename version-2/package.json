@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack-config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +15,5 @@
   },
   "dependencies": {
     "lodash": "^4.17.15"
-  },
-  "scripts": {
-    "build": "webpack --config webpack.config.js"
   }
 }
